@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="https://unpkg.com/camunda-bpmn-js@3.6.1/dist/assets/camunda-cloud-modeler.css">
+
+<div class="row">
+  <div class="modeler"></div>
+  <div class="properties"></div>
+</div>
+
+<script src="index.js" type="module"></script>
+
+<style>
+.row {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  align-items: stretch;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-size: 12px;
+
+  height: 100%;
+  max-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.modeler {
+    width: 100%;
+}
+
+.properties {
+  width: 600px;
+}
+</style>
