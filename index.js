@@ -2,7 +2,14 @@ import BpmnModeler from 'bpmn-js/lib/Modeler';
 import {
   BpmnPropertiesPanelModule,
   BpmnPropertiesProviderModule,
+  ZeebePropertiesProviderModule 
 } from 'bpmn-js-properties-panel';
+
+import 'diagram-js/assets/diagram-js.css';
+import 'bpmn-js/dist/assets/bpmn-js.css';
+import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css'
+import '@bpmn-io/properties-panel/dist/assets/properties-panel.css';
+import 'bpmn-js-element-templates/dist/assets/element-templates.css';
 
 import {
   CloudElementTemplatesPropertiesProviderModule // Camunda 8 Element Templates
@@ -25,6 +32,7 @@ const modeler = new BpmnModeler({
   additionalModules: [
     BpmnPropertiesPanelModule,
     BpmnPropertiesProviderModule,
+    ZeebePropertiesProviderModule,
     CloudElementTemplatesPropertiesProviderModule,
     elementTemplateChooserModule,
     iconRendererModule

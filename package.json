@@ -15,7 +15,7 @@
     "@bpmn-io/properties-panel": "^3.11.0",
     "bpmn-js": "github:bpmn-io/bpmn-js#non-interrupting-toggle",
     "bpmn-js-element-templates": "^1.6.1",
-    "bpmn-js-properties-panel": "^5.5.1",
+    "bpmn-js-properties-panel": "^5.6.0",
     "zeebe-bpmn-moddle": "^1.0.0"
   },
   "devDependencies": {
